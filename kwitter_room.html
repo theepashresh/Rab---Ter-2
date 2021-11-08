@@ -1,0 +1,37 @@
+<html>
+    <head><title>Rab-ter</title>
+        <link rel = "stylesheet" href = "kwitter_room.css">
+        <script src="kwitter_room.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        
+var firebaseConfig = {
+    apiKey: "AIzaSyA3RK1HxwmMm2R39eMhpPxwSAfU3hMwwYQ",
+    authDomain: "rab-ter-51fc9.firebaseapp.com",
+    projectId: "rab-ter-51fc9",
+    storageBucket: "rab-ter-51fc9.appspot.com",
+    messagingSenderId: "843840896532",
+    appId: "1:843840896532:web:9a53dc6899934b5a6af101"
+  };
+  
+  // Initialize Firebase
+  var app = initializeApp(firebaseConfig);
+    <body>
+         <img src="Valli.png">
+        <div>
+            <center><button id="logout_button" class="btn btn-primary" onclick=" logout()">Logout</button>
+                <h1 id="labelname"></h1>
+                <input type="text" id="user_name" class="form-control" placeholder="User Name"> <img onclick="earnbadge()" id="coin"  src="https://bestanimations.com/uploads/gifs/1697162351rotating-red-heart-gif-animation61.gif">
+    
+                 <button id="addroom" class="btn btn-warning" onclick="addroom()">Add Room</button>
+                <h2 id="room_names"></h2>
+            </center>
+            
+        </div> 
+        
+            
+
+    </body>
+</html>

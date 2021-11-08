@@ -1,0 +1,21 @@
+
+
+h3{
+    font-size: 50px;
+    background-color:sandybrown;
+}
+
+
+body{
+    background-image: url("https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX25869243.jpg");
+    
+
+    width: 1360px;
+    height: 625px;
+    text-align: center;
+}
+
+#thanks_button{
+    color: black;
+    background-color: springgreen;
+}

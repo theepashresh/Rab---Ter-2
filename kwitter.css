@@ -1,0 +1,42 @@
+body{
+    background-image: url("https://wallpapertag.com/wallpaper/middle/2/0/8/681809-vertical-bright-solid-color-wallpaper-1920x1080-hd.jpg");
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div{
+    margin-top: 00px;
+    margin-bottom: -1000px;
+    margin-left: 400px;
+    margin-right: 500px;
+    width: 500px;
+    height: 300px;
+    background-color: rgba(0, 255, 255, 0.137);
+    padding-top: 100px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#login_button{
+    margin-top: 100px;
+    margin-bottom: 30px;
+    backdrop-filter: inherit;
+    background-color: khaki;
+    width: 200px;
+    height: 50px;
+    border-color:lawngreen;
+    border-width:medium;
+    border-style:dotted
+}
+
+img {
+    width: 450px;
+    height: 300px;
+}
+
+#user_name{
+    background-color: springgreen;
+    font-family: 'Times New Roman', Times, serif;
+}
